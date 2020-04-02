@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="header-div">
     <div class="jumbotron m-0 bg-white">
       <div class="row">
         <div class="col-md-8 col-sm-12">
@@ -8,20 +8,22 @@
         <div class="col-md-4 col-sm-12 text-sm-center text-md-right ">
           <address>
             <h5>
-              <a href="tel:+8284009616">
+              <a href="tel:+8284009616" target="_blank">
                 Phone: 828-400-9616
                 <i class="fas fa-phone-square-alt"></i>
               </a>
             </h5>
             <h5>
-              <a href="mailto:jackiebeecher50@gmail.com">
+              <a href="mailto:jackiebeecher50@gmail.com" target="_blank">
                 jackiebeecher50@gmail.com
                 <i class="fas fa-envelope-open-text"></i>
               </a>
             </h5>
             <h5>
-              Bryson City, NC
-              <i class="fas fa-map-marker-alt"></i>
+              <a href="https://goo.gl/maps/MMxpwrUVfwHB2AtF6" target="_blank">
+                Bryson City, NC 
+                <i class="fas fa-map-marker-alt"></i>
+              </a>
             </h5>
           </address>
         </div>
@@ -82,5 +84,10 @@
 <style>
 .nurture-wellness-title {
   font-family: "Alice", serif;
+}
+
+#header-div {
+   
+  z-index: 1;
 }
 </style>
